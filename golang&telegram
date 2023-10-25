@@ -1,0 +1,19 @@
+/*for build.cmd golang
+set CGO_CFLAGS=-IC:/td/tdlib/include
+set CGO_LDFLAGS=-LC:/td/tdlib/bin -ltdjson
+go build -trimpath -ldflags="-s -w"
+pause
+*/
+
+/*for build PowerShell golang
+$env:CGO_CFLAGS="-IC:/td/tdlib/include"; $env:CGO_LDFLAGS="-LC:/td/tdlib/bin -ltdjson";  go build -trimpath -ldflags="-s -w"
+*/
+
+/*telegram
+https://core.telegram.org/api/auth#test-accounts
+https://my.telegram.org/apps
+*/
+
+/*golang tdlib
+https://github.com/zelenin/go-tdlib/
+*/
